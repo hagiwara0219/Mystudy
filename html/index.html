@@ -3,19 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
-
-    <title>about javascript</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>あなたのいいところ診断</title>
 </head>
 
 <body>
-    <h2>javascript学習</h2>
-    <p>javascriptでのあれこれ</p>
+    <h1>あなたのいいところは?</h1>
+    <p>診断したい名前を入れて下さい</p>
 
+    <!-- テキスト入力にid=user-nameをつけてjsとリンクさせる -->
+    <input type="text" id="user-name" size="40" maxlength="20">
 
-    <script src="/js/"></script>
+    <!-- 「診断する」ボタンにidをつけてjsで操作できるようにする -->
+    <button id="assessment">診断する</button>
+
+    <!-- 「診断結果」を表示する領域 -->
+    <div id="result-area"></div> <!-- jsとリンクして要素を取得するid -->
+
+    <!-- 診断結果の詳細を表示する領域 -->
+    <div id="tweet-area"></div>
+
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
