@@ -1,3 +1,8 @@
 this is my study of IT work
 and this dirrectory is conect to the "Mystudy"(@github.com:hagiwara0219/Mystudy.git)
 and it was git init already.
+
+
+3月22日(thu)
+Add Task (DOM Document Object Model)
+has　been added
