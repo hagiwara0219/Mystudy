@@ -5,4 +5,6 @@ and it was git init already.
 
 3月22日(thu)
 Add Task (DOM Document Object Model)
-has　been added
+has　been addedthis is echo
+it has been addedtype test
+second unit
